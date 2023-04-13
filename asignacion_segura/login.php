@@ -22,7 +22,7 @@ session_start();
 			$rows=mysqli_num_rows($result);
 
 
-			if($result && $rows) > 0{
+			if($result && $rows > 0){
 				header("Location: index.php");
 			} else {
 				echo "wrong username or password!";
